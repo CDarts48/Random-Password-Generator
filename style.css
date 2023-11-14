@@ -83,7 +83,7 @@ header {
   font-size: 22px;
   line-height: 22px;
   margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
+  /* irrlivant padding: 14px 34px; */
   text-align: center;
   cursor: pointer;
 }
@@ -104,12 +104,14 @@ button[disabled] {
   border: none;
   display: block;
   width: 100%;
-  padding-top: 15px;
+  /* removed padding DRYing out code */
+  padding: 0 4% 4% 4%;
+  /* padding-top: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 85px;
+  padding-bottom: 85px; */
   font-size: 1.2rem;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px dashed #c0c7cf;
